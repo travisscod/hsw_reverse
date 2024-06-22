@@ -1,0 +1,310 @@
+{
+    "proof_spec": {
+        "difficulty": 2,
+        "fingerprint_type": 0,
+        "_type": "w",
+        "data": "qZxYv2C3mn2x1LUCejnOtA0Ht72vNEfLT9i9HJAOLmTMXxNBMPUnIWgJVGnskUvIPmUUTueYuNZJl123hzquLKD+emxEWqKLkZkSwJm9UGAaAq7KsGzBP8FQer/JRl/1lSJRdmyb6DmxWoH+gYILF/TnCUDLluR4XhwFnAU3wwKJoX2k6nb4Wbu0OvxFc+lmh6klu7ExwSHByA5Vn9s30urBDzIdu67Be28rJpNsbZ59516GHRdsd9pwHdTDuhhc",
+        "_location": "https://newassets.hcaptcha.com/c/f922a41",
+        "timeout_value": 1000.0
+    },
+    "rand": [
+        0.5863906145876459
+    ],
+    "components": {
+        "navigator": {
+            "user_agent": "%user_agent%",
+            "language": "en-US",
+            "languages": [
+                "en-US",
+                "en",
+                "da"
+            ],
+            "platform": "Win32",
+            "max_touch_points": 0,
+            "webdriver": false,
+            "notification_query_permission": null,
+            "plugins_undefined": false
+        },
+        "screen": {
+            "color_depth": 24,
+            "pixel_depth": 24,
+            "width": 1536,
+            "height": 864,
+            "avail_width": 1536,
+            "avail_height": 816
+        },
+        "device_pixel_ratio": 1.25,
+        "has_session_storage": true,
+        "has_local_storage": true,
+        "has_indexed_db": true,
+        "web_gl_hash": "-1",
+        "canvas_hash": "9373501784251927131",
+        "has_touch": false,
+        "notification_api_permission": "Default",
+        "chrome": true,
+        "to_string_length": 33,
+        "err_firefox": null,
+        "r_bot_score": 0,
+        "r_bot_score_suspicious_keys": [],
+        "r_bot_score_2": 0,
+        "audio_hash": "-1",
+        "extensions": [
+            false
+        ],
+        "parent_win_hash": null,
+        "webrtc_hash": "-1",
+        "performance_hash": "7673923027489835507",
+        "unique_keys": null,
+        "inv_unique_keys": null,
+        "common_keys_hash": null,
+        "common_keys_tail": null,
+        "features": {
+            "performance_entries": true,
+            "web_audio": true,
+            "web_rtc": true,
+            "canvas_2d": true,
+            "fetch": true
+        }
+    },
+    "events": [
+        [
+            2854298529,
+            "137"
+        ],
+        [
+            1068771096,
+            "631"
+        ],
+        [
+            3756317564,
+            "17157476241021694346"
+        ],
+        [
+            1350382849,
+            "[[277114314453,277114314460,277114314451,357114314456,277114314452,554228628898,57114314443,717114314371391,554228628897,277114314456,1108457257862,277114314450,554228628919,277114314460,277114314451],false]"
+        ],
+        [
+            3957763561,
+            "[\"Windows\",\"15.0.0\",null,\"64\",\"x86\",\"124.0.0.0\"]"
+        ],
+        [
+            748900772,
+            "18207788058829391080"
+        ],
+        [
+            4086018371,
+            "[[true,\"en-US\",true,\"Microsoft David - English (United States)\",\"Microsoft David - English (United States)\"],[false,\"da-DK\",true,\"Microsoft Helle - Danish (Denmark)\",\"Microsoft Helle - Danish (Denmark)\"],[false,\"en-US\",true,\"Microsoft Mark - English (United States)\",\"Microsoft Mark - English (United States)\"]]"
+        ],
+        [
+            2115854713,
+            "[\"ryUSwRXwYQr2djfMa==qqX52asfM\",\"16\",\"b\",\"XQCKPOPWQFRVM\"]"
+        ],
+        [
+            1311261287,
+            "[4,120,4]"
+        ],
+        [
+            690142092,
+            "[32767,32767,16384,8,8,8]"
+        ],
+        [
+            669213918,
+            "[\"Google Inc. (NVIDIA)\",\"ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU (0x000025A2) Direct3D11 vs_5_0 ps_5_0, D3D11)\"]"
+        ],
+        [
+            3643238872,
+            "\"Error: CSP\""
+        ],
+        [
+            873741287,
+            "[0,10464,10464]"
+        ],
+        [
+            2371850788,
+            "true"
+        ],
+        [
+            531197711,
+            "92"
+        ],
+        [
+            3082579163,
+            "15004448993982842482"
+        ],
+        [
+            2906236335,
+            "[[[\"\",384060,0],[\"http://127.0.0.1:5000/static/hsw.js\",0,1],[\"\",706,0]],[]]"
+        ],
+        [
+            137519462,
+            "8483516011730408861"
+        ],
+        [
+            3916977893,
+            "[[\"rZLCmYUYrsfMlWiTJf1wbLp2yoWEvhJ0\",\"18\",\"7\",\"QLMYHRIAXFKVW\"],[\"18fmWiTJQVHzx9MzZAVmxAjmlGCmqbDmWAjm10kmpAjmlmlQHbjmlGVBIzwYIbjmlmDm1ADmyUCrgpemyUyUxJVYk9wcWiTJahUVQVVTWiTJOOfSVbVVnnkmlAjml0kwThVUQnDUxeTKWiTJIV2X18fmDJTJWiTJOV2X\",\"c\",\"20\",\"RBWMINEZBBGFO\"]]"
+        ],
+        [
+            338869435,
+            "8903184385325503829"
+        ],
+        [
+            3311072794,
+            "1118"
+        ],
+        [
+            1335970363,
+            "2826785699373924926"
+        ],
+        [
+            3913991343,
+            "85"
+        ],
+        [
+            2571358880,
+            "[\"Europe/Copenhagen\",-60,-60,-3203646808000,\"Centraleuropæisk normaltid\",\"da\"]"
+        ],
+        [
+            1613898511,
+            "12027682292028963860"
+        ],
+        [
+            443486963,
+            "4932383211497360507"
+        ],
+        [
+            2998564779,
+            "[24,24,65536,212988,200704]"
+        ],
+        [
+            2460707167,
+            "[1,4,5,7,9,12,20,21,24,25,29,31]"
+        ],
+        [
+            3827436525,
+            "15307345790125003576"
+        ],
+        [
+            3952131478,
+            "[8]"
+        ],
+        [
+            3725196262,
+            "[16,1024,4096,7,12,120,[23,127,127]]"
+        ],
+        [
+            3497821731,
+            "[1,1024,1,1,4]"
+        ],
+        [
+            2622130410,
+            "[16384,32,16384,2048,2,2048]"
+        ],
+        [
+            1587819988,
+            "8915205951503093450"
+        ],
+        [
+            2275435905,
+            "4631229088072584217"
+        ],
+        [
+            1373138784,
+            "[[\"navigation:127.0.0.1:5000\",50,57],[\"script:127.0.0.1:5000\",120,127]]"
+        ],
+        [
+            334928754,
+            "13177607191192652685"
+        ],
+        [
+            2881608941,
+            "57"
+        ],
+        [
+            3719249172,
+            "8244645259143839382"
+        ],
+        [
+            137955265,
+            "\"Europe/Copenhagen\""
+        ],
+        [
+            1587180961,
+            "1714978747748"
+        ],
+        [
+            872174808,
+            "[\"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\",\"%user_agent%\",8,12,\"en-US\",[\"en-US\",\"en\",\"da\"],\"Win32\",null,[\"Chromium 124\",\"Brave 124\",\"Not-A.Brand 99\"],false,\"Windows\",2,2,true,false,null,false,false,true,\"[object Keyboard]\",true,false]"
+        ],
+        [
+            414144794,
+            "[-6.172839641571045,-20.710678100585938,120.71067810058594,-20.710678100585938,141.42135620117188,120.71067810058594,-20.710678100585938,141.42135620117188,-20.710678100585938,-20.710678100585938,0,0,1520,0,false]"
+        ],
+        [
+            143592240,
+            "[[162,[162,162,162,255,162,162,162,255,162,162,162,255,162,162,162,255]],[[11,0,0,95.96875,15,4,96.765625],[[12,0,-1,113.125,17,4,113],[11,0,0,111,12,4,111],[11,0,0,95.96875,15,4,96.765625],[11,0,0,95.96875,15,4,96.765625],[11,0,0,95.96875,15,4,96.765625],[11,0,0,95.96875,15,4,96.765625],[11,0,0,95.96875,15,4,96.765625],[12,0,-1,127.578125,15,4,128.0234375],[12,0,0,109.640625,14,3,110.1953125]]],[0,2,8,13,15,17,24,26,27,28,29,30,31,32,34,37,39,40,49,69,75,76,79,80],[0,0,0,0,14,3,0]]"
+        ],
+        [
+            694616987,
+            "[1536,864,1536,816,24,24,false,0,1.25,1536,816,true,true,true,false]"
+        ],
+        [
+            2232178856,
+            "[2147483647,2147483647,2147483647,2147483647]"
+        ],
+        [
+            2151859767,
+            "[[\"loadTimes\",\"csi\",\"app\"],35,34,null,false,false,true,37,false,true,true,true,true,[\"solana\",\"_sentryDebugIds\",\"hsw\",\"braveEthereum\",\"braveSolana\"],[],[],true]"
+        ],
+        [
+            2691352878,
+            "537"
+        ],
+        [
+            1877814445,
+            "[0,1,2,3,4,17,18]"
+        ],
+        [
+            255383392,
+            "[2147483647,2147483647,4294967294]"
+        ],
+        [
+            1405859696,
+            "[16,4095,30,16,16380,120,12,120,[23,127,127]]"
+        ],
+        [
+            1421982308,
+            "[2147483648,292657768857,null,null,2172649472,true,true,true,null]"
+        ],
+        [
+            3070040703,
+            "6981242729856591669"
+        ],
+        [
+            3498175614,
+            "[\"N3Ydo4uzNykjM2uz\",\"19\",\"7\",\"CULDOGEBHHWWS\"]"
+        ]
+    ],
+    "suspicious_events": [],
+    "messages": null,
+    "stack_data": null,
+    "stamp": "1:2:2024-05-06:qZxYv2C3mn2x1LUCejnOtA0Ht72vNEfLT9i9HJAOLmTMXxNBMPUnIWgJVGnskUvIPmUUTueYuNZJl123hzquLKD+emxEWqKLkZkSwJm9UGAaAq7KsGzBP8FQer/JRl/1lSJRdmyb6DmxWoH+gYILF/TnCUDLluR4XhwFnAU3wwKJoX2k6nb4Wbu0OvxFc+lmh6klu7ExwSHByA5Vn9s30urBDzIdu67Be28rJpNsbZ59516GHRdsd9pwHdTDuhhc::dVy5Hx8I:3",
+    "href": null,
+    "ardata": null,
+    "errs": {
+        "list": []
+    },
+    "perf": [
+        [
+            1,
+            22.0
+        ],
+        [
+            2,
+            160.0
+        ],
+        [
+            3,
+            0.0
+        ]
+    ]
+}

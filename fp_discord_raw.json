@@ -1,0 +1,15 @@
+{
+    "proof_spec": {
+        "difficulty": 0,
+        "fingerprint_type": 0,
+        "_type": "1",
+        "data": "",
+        "_location": "",
+        "timeout_value": 0.0
+    },
+    "rand": [
+        0.1480779805451713
+    ],
+    "components": {
+        "navigator": {
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/

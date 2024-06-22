@@ -1,0 +1,11 @@
+import modules.encode
+import json
+
+v = {232332: json.dumps(modules.encode.encrypt("2200263562"))}
+
+with open('data.json', 'w') as file:
+    json.dump(v, file)
+
+#req = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmIjowLCJzIjoyLCJ0IjoidyIsImQiOiJwS3ptZzRXR3pHc0dMTmJJaE1YWENQckdmSUNvbSt5SGNraVNzektKV1ZpREhvdHgzWHRDZk1pVnNFTUZKQ2YzNTRTazBPNzlwVVVMSDNQQ2tPZllLbEc3em42OW9udGhOVCtXWm5kM3JKYmExdTcycXpUMnIyTGZLcHNVVnVqaFpmOFhsVE9yWHBmY0YxU09HOHd6OW5iWWFLaWM2UmFPVVJQOXJja3VpaHBPWUhYNmJ2MlVDdEkzamxzc3QzbFlZU25YUUF3eXROWHVJSEV4NEM0S3ZHZlpNSEJHV09zYXpybzE1cHZFcFFGZ01TTjJwQmFMMUYwY0lWUnF2VmZIIiwibCI6Imh0dHBzOi8vbmV3YXNzZXRzLmhjYXB0Y2hhLmNvbS9jL2Y5MjJhNDEiLCJpIjoic2hhMjU2LVF0bWtBUnJEYXVTRDZPUExTN0t6Z3B1V3Z6WnJ2QndPS3JRTlRYM3Jra0E9IiwiZSI6MTcxNDk4MzE1MSwibiI6ImhzdyIsImMiOjEwMDB9.NOkj_70hpXIPqKrM223XDAFYHfSTYcrghKIFdbtQFYs"
+
+#print(json.dumps(hsw(req, "https://discord.com/channels/@me"), indent=4))

@@ -1,0 +1,91 @@
+{
+    "proof_spec": {
+        "difficulty": 2,
+        "fingerprint_type": 0,
+        "_type": "w",
+        "data": "pKzmg4WGzGsGLNbIhMXXCPrGfICom+yHckiSszKJWViDHotx3XtCfMiVsEMFJCf354Sk0O79pUULH3PCkOfYKlG7zn69onthNT+WZnd3rJba1u72qzT2r2LfKpsUVujhZf8XlTOrXpfcF1SOG8wz9nbYaKic6RaOURP9rckuihpOYHX6bv2UCtI3jlsst3lYYSnXQAwytNXuIHEx4C4KvGfZMHBGWOsazro15pvEpQFgMSN2pBaL1F0cIVRqvVfH",
+        "_location": "https://newassets.hcaptcha.com/c/f922a41",
+        "timeout_value": 1000
+    },
+    "rand": 4.989436,
+    "components": {
+        "navigator": {
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+            "language": "en-US",
+            "languages": [
+                "en-US"
+            ],
+            "platform": "Win32",
+            "max_touch_points": 0,
+            "webdriver": false,
+            "notification_query_permission": null,
+            "plugins_undefined": false
+        },
+        "screen": {
+            "color_depth": 24,
+            "pixel_depth": 24,
+            "width": 1366,
+            "height": 768,
+            "avail_width": 1366,
+            "avail_height": 728
+        },
+        "device_pixel_ratio": 1.25,
+        "has_session_storage": true,
+        "has_local_storage": true,
+        "has_indexed_db": true,
+        "web_gl_hash": "-1",
+        "canvas_hash": "2968171167562453991",
+        "has_touch": false,
+        "notification_api_permission": "Denied",
+        "chrome": false,
+        "to_string_length": 33,
+        "err_firefox": null,
+        "r_bot_score": 0,
+        "r_bot_score_suspicious_keys": [],
+        "r_bot_score_2": 0,
+        "audio_hash": "-1",
+        "extensions": [
+            false
+        ],
+        "parent_win_hash": "33802734307185494956",
+        "webrtc_hash": "-1",
+        "performance_hash": "8790256063966436453",
+        "unique_keys": "GLOBAL_ENV,_ws,0,__OVERLAY__,hcaptcha,__localeData__,IntlPolyfill,__timingFunction,grecaptcha,2,DiscordSentry,1,hcaptchaOnLoad,clearImmediate,setImmediate,DiscordErrors,__BILLING_STANDALONE__,__DISCORD_WINDOW_ID,webpackChunkdiscord_app,__SECRET_EMOTION__,regeneratorRuntime,platform,__isReactDndBackendSetUp,__SENTRY__",
+        "inv_unique_keys": "sessionStorage,hsw,image_label_binary,offset,__wdata,_length,_sharedLibs,localStorage",
+        "common_keys_hash": "1418917581",
+        "common_keys_tail": "chrome,caches,cookieStore,ondevicemotion,ondeviceorientation,ondeviceorientationabsolute,launchQueue,documentPictureInPicture,onbeforematch,getScreenDetails,queryLocalFonts,originAgentCluster,speechSynthesis,oncontentvisibilityautostatechange,onscrollend,webkitRequestFileSystem,webkitResolveLocalFileSystemURL,Raven",
+        "features": {
+            "performance_entries": true,
+            "web_audio": true,
+            "web_rtc": true,
+            "canvas_2d": true,
+            "fetch": true
+        }
+    },
+    "events": [],
+    "suspicious_events": [],
+    "messages": null,
+    "stack_data": [
+        "new Promise (<anonymous>)"
+    ],
+    "stamp": "1:4:2024-05-07:pKzmg4WGzGsGLNbIhMXXCPrGfICom+yHckiSszKJWViDHotx3XtCfMiVsEMFJCf354Sk0O79pUULH3PCkOfYKlG7zn69onthNT+WZnd3rJba1u72qzT2r2LfKpsUVujhZf8XlTOrXpfcF1SOG8wz9nbYaKic6RaOURP9rckuihpOYHX6bv2UCtI3jlsst3lYYSnXQAwytNXuIHEx4C4KvGfZMHBGWOsazro15pvEpQFgMSN2pBaL1F0cIVRqvVfH::Bk7QoKk6:1339",
+    "href": "discord.com/app",
+    "ardata": null,
+    "errs": {
+        "list": []
+    },
+    "perf": [
+        [
+            1,
+            47
+        ],
+        [
+            2,
+            130
+        ],
+        [
+            3,
+            0
+        ]
+    ]
+}

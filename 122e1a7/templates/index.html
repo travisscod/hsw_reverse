@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var fn = document.createElement;
+    var fn2 = eval
+    var performance_ = performance.now;
+    var Date_now = Date.now;
+
+    performance_= function () {
+        var time = performance_.apply(this, arguments);
+        console.log(time)
+        return time
+    };
+
+    Date.now = function () {
+        var time = Date_now.apply(this, arguments);
+        console.log(time)
+        return time
+    };
+
+
+    eval = function (code) {
+        console.log('Eval function called:', code);
+        return fn2(code);
+    };
+    
+    eval.toString = function () {
+        return fn2.toString();
+    };
+    
+    document.createElement = (function (tag) {
+        if (tag === 'canvas') {
+            var canvas = fn.apply(this, arguments);
+            var originalCreateContext = canvas.getContext;
+
+            canvas.getContext = function (type) {
+                var context = originalCreateContext.apply(this, arguments);
+                console.log('Canvas context created:', type);
+                var originalgetImageData = context.getImageData;
+                
+                context.getImageData = function () {
+                    console.log('Canvas data extracted:', arguments);
+                    return originalgetImageData.apply(this, arguments);
+                };
+
+                return context;
+            };
+            
+
+            toDataURL = canvas.toDataURL;
+
+            canvas.toDataURL = function () {
+
+                URL = toDataURL.apply(this, arguments);
+                console.log('Canvas URL data extracted:',URL);
+                return URL
+            };
+
+            
+            return canvas;
+        } else {
+            var el = fn.apply(this, arguments);
+            return el;
+        }
+    });
+
+</script>
+
+<script>const DATA = '{{wasm_data}}' </script>
+<script src="./static/hsw.js"></script>
+
+<script>
+    const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmIjowLCJzIjoyLCJ0IjoidyIsImQiOiJwS3ptZzRXR3pHc0dMTmJJaE1YWENQckdmSUNvbSt5SGNraVNzektKV1ZpREhvdHgzWHRDZk1pVnNFTUZKQ2YzNTRTazBPNzlwVVVMSDNQQ2tPZllLbEc3em42OW9udGhOVCtXWm5kM3JKYmExdTcycXpUMnIyTGZLcHNVVnVqaFpmOFhsVE9yWHBmY0YxU09HOHd6OW5iWWFLaWM2UmFPVVJQOXJja3VpaHBPWUhYNmJ2MlVDdEkzamxzc3QzbFlZU25YUUF3eXROWHVJSEV4NEM0S3ZHZlpNSEJHV09zYXpybzE1cHZFcFFGZ01TTjJwQmFMMUYwY0lWUnF2VmZIIiwibCI6Imh0dHBzOi8vbmV3YXNzZXRzLmhjYXB0Y2hhLmNvbS9jL2Y5MjJhNDEiLCJpIjoic2hhMjU2LVF0bWtBUnJEYXVTRDZPUExTN0t6Z3B1V3Z6WnJ2QndPS3JRTlRYM3Jra0E9IiwiZSI6MTcxNDk4MzE1MSwibiI6ImhzdyIsImMiOjEwMDB9.NOkj_70hpXIPqKrM223XDAFYHfSTYcrghKIFdbtQFYs"; // Replace it with your actual JWT token
+    const href = "https://discord.app/channels/@me"
+
+    hsw(token).then(resp => {
+        console.log(resp)
+    })
+</script>
+
+</html>

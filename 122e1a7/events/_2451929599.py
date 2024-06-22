@@ -1,0 +1,14 @@
+class Event:
+    def __init__(self, MAX_COMBINED_UNIFORM_BLOCKS,
+                 MAX_UNIFORM_BUFFER_BINDINGS,
+                 MAX_UNIFORM_BLOCK_SIZE,
+                 MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS,
+                 MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS) -> None:
+        
+        self.hash = "".join([
+            MAX_COMBINED_UNIFORM_BLOCKS,
+            MAX_UNIFORM_BUFFER_BINDINGS,
+            MAX_UNIFORM_BLOCK_SIZE,
+            MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS,
+            MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS
+        ])
